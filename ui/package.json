@@ -1,0 +1,32 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
+    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "@hapi/nes": "^12.0.4",
+    "@vitejs/plugin-react": "^2.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "isomorphic-ws": "^5.0.0",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.4",
+    "vite": "^3.0.3",
+    "ws": "^8.8.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-inject": "^4.0.4",
+    "@types/hapi__nes": "^11.0.5",
+    "@types/react-dom": "^18.0.6"
+  }
+}
